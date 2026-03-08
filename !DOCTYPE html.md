@@ -2,179 +2,226 @@
 <html>  
 <head>  
 <meta charset="UTF-8">  
-<title>Secret Message</title>  
+<title>For My Begumm ❤️</title>  
   
 <style>  
+  
 body{  
-font-family: Arial;  
-background:#ffe6f0;  
-text-align:center;  
-padding-top:80px;  
+margin:0;  
+font-family: 'Segoe UI', sans-serif;  
+background:linear-gradient(135deg,#ff758c,#ff7eb3,#ffc3a0);  
+height:100vh;  
+display:flex;  
+justify-content:center;  
+align-items:center;  
+overflow:hidden;  
 }  
   
-.box{  
-background:white;  
-padding:30px;  
-border-radius:15px;  
-width:350px;  
-margin:auto;  
-box-shadow:0 0 15px rgba(0,0,0,0.2);  
-}  
-  
-button{  
-padding:10px 20px;  
-border:none;  
-border-radius:10px;  
-background:#ff4d88;  
-color:white;  
-font-size:16px;  
-cursor:pointer;  
-}  
-  
-input{  
-padding:10px;  
-border-radius:10px;  
-border:1px solid #ccc;  
-}  
-  
-.hidden{  
-display:none;  
-}  
+/* envelope */  
   
 .envelope{  
-font-size:80px;  
+width:220px;  
+height:140px;  
+background:#fff;  
+position:relative;  
 cursor:pointer;  
+border-radius:8px;  
+box-shadow:0 20px 40px rgba(0,0,0,.3);  
+transition:.4s;  
 }  
-</style>  
   
+.envelope:hover{  
+transform:scale(1.08);  
+}  
+  
+.flap{  
+position:absolute;  
+top:-70px;  
+border-left:110px solid transparent;  
+border-right:110px solid transparent;  
+border-bottom:70px solid #fff;  
+}  
+  
+/* letter */  
+  
+#letter{  
+display:none;  
+position:absolute;  
+background:white;  
+width:85%;  
+max-width:700px;  
+height:70vh;  
+overflow:auto;  
+padding:35px;  
+border-radius:20px;  
+box-shadow:0 25px 60px rgba(0,0,0,.4);  
+color:#333;  
+}  
+  
+/* hearts */  
+  
+.heart{  
+position:absolute;  
+font-size:22px;  
+animation:fall linear infinite;  
+}  
+  
+@keyframes fall{  
+  
+0%{  
+transform:translateY(-100px);  
+opacity:1;  
+}  
+  
+100%{  
+transform:translateY(100vh);  
+opacity:0;  
+}  
+  
+}  
+  
+</style>  
 </head>  
+  
 <body>  
   
-<div class="box">  
-  
-<div id="step1">  
-<div class="envelope">✉️</div>  
-<h3>Click the envelope</h3>  
-<button onclick="next(2)">Open</button>  
+<div class="envelope" onclick="openLetter()">  
+<div class="flap"></div>  
 </div>  
   
-<div id="step2" class="hidden">  
-<h2>Surprise 👀</h2>  
-<p>Someone has a secret message for you...</p>  
-<button onclick="next(3)">Next</button>  
+<div id="letter">  
+<h2>For My Begumm ❤️</h2>  
+<p id="text"></p>  
 </div>  
   
-<div id="step3" class="hidden">  
-<h2>Another surprise 💌</h2>  
-<p>The real message is protected...</p>  
-<button onclick="next(4)">Unlock</button>  
-</div>  
+<audio id="music" loop>  
+<source src="https://cdn.pixabay.com/audio/2022/03/15/audio_c8c8a73467.mp3">  
+</audio>  
   
-<div id="step4" class="hidden">  
-<h3>Enter Password</h3>  
-<input type="password" id="pass">  
-<br><br>  
-<button onclick="check()">Open Message</button>  
-</div>  
+<script>  
   
-<div id="final" class="hidden">  
-<h3>💖</h3>  
-  
-<p>  
-Mere ladlyyyyy future begummmm<br><br>  
+const message = `Mere ladlyyyyy future begummmm  
   
 Ma jane se pehle ye kahna chahta k    
+  
 I promise that k nikah k bad tm ne jasa Socha hua hm wase h life guzre g    
 Blkay us se b kahin gunah zayda axhe    
+  
 Ma gurente deta k hmre life same wase h ho g jasa tm chahti jasa hm dono ne mil kr socha hua ❤️    
   
-<br><br>  
-  
 Jasa tm ne muje call pr bataya thaaaaaaa bilkul wasaaa hiiiii    
+  
 Jasa tm chahti ek ghr ho us ma srf ma or tm    
-  
-<br><br>  
-  
 Hm mil kr cooking krein    
+  
 Ma talwat kru or mere shoulder pr tmra sr    
+  
 Bilkul asa he ho ga begum    
 I promise 🤍    
   
-<br><br>  
-  
 Ma talwat pr ke sunao ga tm mere shoulder pr sr rkna 🤍    
-Dherrr sare batein krein ge hr topic k relatedd    
   
-<br><br>  
+Dherrr sare batein krein ge hr topic k relatedd    
   
 Kabheeee ma bolo gaaa tm sunaaa    
 Kabhe tm bolna ma suno gaaaa    
   
-<br><br>  
-  
 Sameeeee dressing krein g jaha b jain ge    
+  
 Tme khd apne hatho se kana kilaua kro ga    
 Tme khd apne hato se mehndi lagaya kro gaa    
   
-<br><br>  
-  
 Apne hatho se tmre hatho ma churian pehnaya kru ga ❤️    
-Khd tme rings pehnaya kro ga apne se 🤍    
   
-<br><br>  
+Khd tme rings pehnaya kro ga apne se 🤍    
   
 Tmre balo pr brush b ma h kia kru ga 🫠❤️    
   
-<br><br>  
-  
 Hr chzzz hm mil kr krein h    
+  
 Bs ma itna kahna chahta jasa tm chahti hm waseeee h life gusre g mere ladlyyyy begummmmm 🤍    
   
-<br><br>  
-  
 Tmra hathh kabhii ni chorne wala    
-Ekele ma bi nahi or na h sb k smne 🤍    
-  
-<br><br>  
   
 Begummmm ma tm se behadd pyar krta    
 Khd se b zaydaaaaaaaaaaaaaaa    
   
-<br><br>  
-  
 Maaaa srfff tmraaaaa huuuuuuu    
-SRF TMAAAHARAAAA    
   
-<br><br>  
+SRF TMAAAHARAAAA    
   
 I will really missss uhh alotttt Begummmmmm 🫠❤️    
   
-<br><br>  
-  
 And I will alwaysssss love uhhhh the way uh want 🫠🤍    
-Loveeeee uh alottt begummm 🤍  
-</p>  
   
-</div>  
+Loveeeee uh alottt begummm 🤍`;  
   
-</div>  
+function openLetter(){  
   
-<script>  
+let pass1 = prompt("Enter password");  
   
-function next(step){  
-document.querySelectorAll(".box > div").forEach(d=>d.classList.add("hidden"))  
-document.getElementById("step"+step).classList.remove("hidden")  
+if(pass1 === "zanoor"){  
+  
+let pass2 = prompt("Enter second password");  
+  
+if(pass2 === "Mere ladlyyyyy future begummmm"){  
+  
+document.querySelector(".envelope").style.display="none";  
+document.getElementById("letter").style.display="block";  
+  
+document.getElementById("music").play();  
+  
+typeText();  
+hearts();  
+  
+}else{  
+alert("Wrong second password");  
 }  
   
-function check(){  
-let p=document.getElementById("pass").value  
-if(p==="zanoor"){  
-document.querySelectorAll(".box > div").forEach(d=>d.classList.add("hidden"))  
-document.getElementById("final").classList.remove("hidden")  
+}else{  
+alert("Wrong password");  
 }  
-else{  
-alert("Wrong password")  
+  
 }  
+  
+function typeText(){  
+  
+let i=0;  
+let speed=40;  
+  
+function typing(){  
+  
+if(i < message.length){  
+document.getElementById("text").innerHTML += message.charAt(i);  
+i++;  
+setTimeout(typing,speed);  
+}  
+  
+}  
+  
+typing();  
+  
+}  
+  
+function hearts(){  
+  
+setInterval(()=>{  
+  
+let heart=document.createElement("div");  
+heart.classList.add("heart");  
+heart.innerHTML="❤️";  
+  
+heart.style.left=Math.random()*100+"vw";  
+heart.style.animationDuration=(3+Math.random()*5)+"s";  
+  
+document.body.appendChild(heart);  
+  
+setTimeout(()=>{  
+heart.remove();  
+},8000);  
+  
+},300);  
+  
 }  
   
 </script>  
