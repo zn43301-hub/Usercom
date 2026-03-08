@@ -81,16 +81,78 @@ cursor:pointer;
 <h3>💖</h3>  
   
 <p>  
-Begummmm ma tmra wait kru ga tme jtna jtna bolo g utna wait kru gaaaaa  
-Ku k ma ne nikah srf tm se h krna ha srf tm se hi  
-Or nikah k bad tm jase life chahte hm dono wase h guzre ge   
-Blkay us se b acheee  
-Tm ne jasa socha hua wase h hm kre g  
-I promise k tm ne jasa socha hua jo kch tm ne mjje bataya hua hm wase life guzre g  
-Ma tmraaaa khyal rku gaaa tme khushh rku ga tme dheeer sara pyarrr kruu gaaaa izzat du gaaaaaaaa   
-Tm jasa kaho g ma wasa zain banu ga  
-Or  
-Ma srf tmra hu🫠❤️  
+Mere ladlyyyyy future begummmm<br><br>  
+  
+Ma jane se pehle ye kahna chahta k    
+I promise that k nikah k bad tm ne jasa Socha hua hm wase h life guzre g    
+Blkay us se b kahin gunah zayda axhe    
+Ma gurente deta k hmre life same wase h ho g jasa tm chahti jasa hm dono ne mil kr socha hua ❤️    
+  
+<br><br>  
+  
+Jasa tm ne muje call pr bataya thaaaaaaa bilkul wasaaa hiiiii    
+Jasa tm chahti ek ghr ho us ma srf ma or tm    
+  
+<br><br>  
+  
+Hm mil kr cooking krein    
+Ma talwat kru or mere shoulder pr tmra sr    
+Bilkul asa he ho ga begum    
+I promise 🤍    
+  
+<br><br>  
+  
+Ma talwat pr ke sunao ga tm mere shoulder pr sr rkna 🤍    
+Dherrr sare batein krein ge hr topic k relatedd    
+  
+<br><br>  
+  
+Kabheeee ma bolo gaaa tm sunaaa    
+Kabhe tm bolna ma suno gaaaa    
+  
+<br><br>  
+  
+Sameeeee dressing krein g jaha b jain ge    
+Tme khd apne hatho se kana kilaua kro ga    
+Tme khd apne hato se mehndi lagaya kro gaa    
+  
+<br><br>  
+  
+Apne hatho se tmre hatho ma churian pehnaya kru ga ❤️    
+Khd tme rings pehnaya kro ga apne se 🤍    
+  
+<br><br>  
+  
+Tmre balo pr brush b ma h kia kru ga 🫠❤️    
+  
+<br><br>  
+  
+Hr chzzz hm mil kr krein h    
+Bs ma itna kahna chahta jasa tm chahti hm waseeee h life gusre g mere ladlyyyy begummmmm 🤍    
+  
+<br><br>  
+  
+Tmra hathh kabhii ni chorne wala    
+Ekele ma bi nahi or na h sb k smne 🤍    
+  
+<br><br>  
+  
+Begummmm ma tm se behadd pyar krta    
+Khd se b zaydaaaaaaaaaaaaaaa    
+  
+<br><br>  
+  
+Maaaa srfff tmraaaaa huuuuuuu    
+SRF TMAAAHARAAAA    
+  
+<br><br>  
+  
+I will really missss uhh alotttt Begummmmmm 🫠❤️    
+  
+<br><br>  
+  
+And I will alwaysssss love uhhhh the way uh want 🫠🤍    
+Loveeeee uh alottt begummm 🤍  
 </p>  
   
 </div>  
